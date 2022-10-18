@@ -1,0 +1,12 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPath": "/hello"
+	},
+	"response": {
+		"body": "Hello stubr 2",
+		"headers": { 
+			"Vary2": "user-agent, accept"
+		}
+	}
+}

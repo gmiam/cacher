@@ -1,0 +1,12 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPathPattern": "/b/(.*)"
+	},
+	"response": {
+		"body": "Hello stubr",
+		"headers": { 
+			"Vary": "user-agent, accept"
+		} 
+	}
+}

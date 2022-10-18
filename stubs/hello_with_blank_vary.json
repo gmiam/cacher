@@ -1,0 +1,13 @@
+{
+        "request": {
+                "method": "GET",
+                "urlPathPattern": "/blank_vary/(.*)"
+        },
+        "response": {
+                "body": "Hello stubr - no vary",
+                "headers": {
+                        "Vary": "",
+			"Cache-Control": " s_maxage=66666, no-cache, no-store, no-transform, must_revalidate, proxy-revalidate, must-understand, private, public, immutable, stale-while-revalidate=86400, stale-if-error, max-age=2"
+                }
+        }
+}
